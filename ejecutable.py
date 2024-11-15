@@ -65,6 +65,8 @@ if __name__ == "__main__":
                 adn.mostrar()
         
         elif opcion == "4":  # SALE
+            print("Felicitaciones, terminaste de operar con tu ADN, asi quedo")
+            adn.mostrar()
             break
         else:
             print("Opción no válida.")
