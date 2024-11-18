@@ -10,6 +10,7 @@ if __name__ == "__main__":
         opcion = input("¿Qué te gustaría hacer? (1: Detectar, 2: Mutar, 3: Curar, 4: Salir): ")
         if opcion == "1":  # DETECTA
             detector = Detector()
+            adn.mostrar()
             if not detector.detectar_mutantes(adn.matriz):
                 print("No hay mutantes detectados.")
         elif opcion == "2":  # MUTA
